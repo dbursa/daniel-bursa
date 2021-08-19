@@ -1,0 +1,19 @@
+{
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.2",
+        "vlucas/phpdotenv": "^5.2",
+        "php-di/php-di": "^6.2",
+        "dibi/dibi": "^4.1",
+        "php-di/slim-bridge": "^3.0",
+        "slim/twig-view": "^3.0",
+        "swiftmailer/swiftmailer": "^6.0",
+        "symfony/translation": "^5.2",
+        "symfony/twig-bridge": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phisolutions\\": "src/"
+        }
+    }
+}
