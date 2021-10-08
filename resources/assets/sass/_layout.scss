@@ -1,7 +1,6 @@
 @use 'variables' as *;
 
 nav {
-	height: 80px;
 	position: relative;
 	display: flex;
 	justify-content: flex-end;
@@ -12,5 +11,10 @@ nav {
 		flex-direction: column;
 		position: absolute;
 		overflow: hidden;
+		margin-top: 60px;
+	}
+
+	.nav-content-open {
+		max-height: 300px;
 	}
 }

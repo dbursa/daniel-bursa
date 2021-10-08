@@ -1,11 +1,10 @@
-{% extends "/layouts/layout.twig" %} 
+{% extends "/layouts/layout.twig" %}
 
 {% block body %}
-<div>
-{% trans %}welcome{% endtrans %}
-<div>
-{% trans %}message{% endtrans %}
-</div>
-</div>
+<main>
+    {% include '/pages/intro.twig' %}
+    {% include '/pages/review.twig' %}
+    {% include '/pages/form.twig' %}
+</main>
 
 {% endblock %}
